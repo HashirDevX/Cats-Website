@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="detail-page.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Cats Details Page  | By Hashir Raza</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+        <button>Get Started</button>
+    </header>
+
+    <div class="bg-image-container">
+        <h1></h1>
+    </div>
+    <div id="fullcardDetailSection">
+    <div class="cat-details" id="card-root">
+
+    <!-- Left column: image and quick meta -->
+    <div class="thumb">
+      <img id="image" src="" alt="breed image" />
+      <div class="meta" aria-hidden="false">
+        <h1 id="name">Breed Name</h1>
+        <div class="sub">
+          Origin: <span id="origin">-</span> · Life span: <span id="life_span">-</span> years
+        </div>
+
+        <div class="grid">
+          <div class="field">
+            <span class="label">Weight (metric)</span>
+            <div id="weight_metric">-</div>
+          </div>
+          <div class="field">
+            <span class="label">Weight (imperial)</span>
+            <div id="weight_imperial">-</div>
+          </div>
+          <div class="field">
+            <span class="label">Country Code</span>
+            <div id="country_code">-</div>
+          </div>
+
+          <div class="field">
+            <span class="label">Indoor</span>
+            <div id="indoor">-</div>
+          </div>
+          <div class="field">
+            <span class="label">Lap cat</span>
+            <div id="lap">-</div>
+          </div>
+          <div class="field">
+            <span class="label">Suppressed tail</span>
+            <div id="suppressed_tail">-</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right column: details -->
+    <div style="padding:6px 4px;">
+      <div>
+        <strong>Temperament:</strong>
+        <div id="temperament" class="small" style="margin-top:6px">-</div>
+
+        <p class="description" id="description">-</p>
+
+        <div class="stats" aria-hidden="false">
+          <span class="badge" id="adaptability">A: -</span>
+          <span class="badge" id="affection_level">Affection: -</span>
+          <span class="badge" id="child_friendly">Child: -</span>
+          <span class="badge" id="dog_friendly">Dog: -</span>
+          <span class="badge" id="energy_level">Energy: -</span>
+          <span class="badge" id="grooming">Groom: -</span>
+          <span class="badge" id="health_issues">Health: -</span>
+          <span class="badge" id="intelligence">IQ: -</span>
+          <span class="badge" id="shedding_level">Shedding: -</span>
+        </div>
+
+        <div class="links">
+          <a id="cfa_url" class="link" href="#" target="_blank">CFA</a>
+          <a id="vetstreet_url" class="link" href="#" target="_blank">VetStreet</a>
+          <a id="vcahospitals_url" class="link" href="#" target="_blank">VCA Hospitals</a>
+          <a id="wikipedia_url" class="link" href="#" target="_blank">Wikipedia</a>
+        </div>
+
+        <hr style="margin:18px 0; border:none; border-top:1px solid #eef2f6" />
+
+        <!-- All raw fields with their ids (useful for debugging / mapping) -->
+        <div class="small">
+          <div>ID: <span id="id_field">-</span></div>
+          <div>Alt names: <span id="alt_names">-</span></div>
+          <div>Country codes: <span id="country_codes">-</span></div>
+          <div>Social needs: <span id="social_needs">-</span></div>
+          <div>Stranger friendly: <span id="stranger_friendly">-</span></div>
+          <div>Vocalisation: <span id="vocalisation">-</span></div>
+          <div>Experimental: <span id="experimental">-</span></div>
+          <div>Hairless: <span id="hairless">-</span></div>
+          <div>Natural: <span id="natural">-</span></div>
+          <div>Rare: <span id="rare">-</span></div>
+          <div>Rex: <span id="rex">-</span></div>
+          <div>Short legs: <span id="short_legs">-</span></div>
+          <div>Hypoallergenic: <span id="hypoallergenic">-</span></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+    <script src="detail-page.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>
